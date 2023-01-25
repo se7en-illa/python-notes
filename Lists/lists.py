@@ -207,3 +207,13 @@ twin_beds = inventory.count("twin bed")
 removed_item = inventory.pop(4)
 inventory.insert(10, "19th Century Bed Frame")
 inventory = sorted(inventory)
+
+
+# ZIPPPP
+
+owners = ["Jenny", "Alexus", "Sam", "Grace"]
+dogs_names = ["Elphonse", "Dr. Doggy DDS", "Carter", "Ralph"]
+
+names_and_dogs_names = zip(owners, dogs_names)
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+print(list_of_names_and_dogs_names)
