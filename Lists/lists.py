@@ -70,3 +70,41 @@ print(shopping_line)
 
 
 # 2d lists
+heights = [["Noelle", 61], ["Ava", 70], ["Sam", 67], ["Mia", 64]]
+
+# A 2d list with three lists in each of the indices.
+tic_tac_toe = [
+    ["X", "O", "X"],
+    ["O", "X", "O"],
+    ["O", "O", "X"]
+]
+
+# Access the sublist at index 0, and then access the 1st index of that sublist.
+noelles_height = heights[0][1]
+print(noelles_height)
+
+class_name_test = [["Jenny", 90], [
+    "Alexus", 85.5], ["Sam", 83], ["Ellie", 101.5]]
+
+print(class_name_test)
+
+sams_score = class_name_test[2][1]
+print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+print(ellies_score)
+
+# modifying 2d lists
+
+class_name_hobbies = [["Jenny", "Breakdancing"], [
+    "Alexus", "Photography"], ["Grace", "Soccer"]]
+# The list of Jenny is at index 0. The hobby is at index 1.
+class_name_hobbies[0][1] = "Meditation"
+print(class_name_hobbies)
+
+incoming_class = [["Kenny", "American", 9], [
+    "Tanya", "Ukrainian", 9], ["Madison", "Indian", 7]]
+
+incoming_class[2][2] = 8
+incoming_class[-3][-3] = "Ken"
+print(incoming_class)
