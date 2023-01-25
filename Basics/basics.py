@@ -120,3 +120,10 @@ But you, a new brood, native, athletic, continental, greater than
   before known,
 Arouse! for you must justify me.
 """
+
+# we can assign info to a variable using input()
+# >> > favorite_fruit = input("What is your favorite fruit? ")
+# What is your favorite fruit? mango
+
+# >> > print("Oh cool! I like " + favorite_fruit + " too, but I think my favorite fruit is apple.")
+# Oh cool! I like mango too, but I think my favorite fruit is apple.
