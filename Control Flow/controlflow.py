@@ -122,3 +122,9 @@ else:
 # if statements can be used to create control flow in your code.
 # else statements can be used to execute code when the conditions of an if statement are not met.
 # elif statements can be used to build additional checks into your if statements
+
+
+# bugs
+# SyntaxError: Error caused by not following the proper structure (syntax) of the language.
+# NameError: Errors reported when the interpreter detects a variable that is unknown.
+# TypeError: Errors thrown when an operation is applied to an object of an inappropriate type.
