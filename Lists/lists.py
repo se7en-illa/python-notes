@@ -32,3 +32,41 @@ new_orders = ["lilac", "iris"]
 orders_combined = orders + new_orders
 
 broken_prices = [5, 3, 4, 5, 4] + [4]
+
+# accessing index
+# When accessing elements of a list, you must use an int as the index. If you use a float, you will get an error. This can be especially tricky when using division. For example print(calls[4/2]) will result in an error, because 4/2 gets evaluated to the float 2.0.
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+employee_four = employees[3]
+print(employees[4])
+
+# We can use the index -1 to select the last item of a list, even when we don’t know how many elements are in a list.
+pancake_recipe = ["eggs", "flour", "butter", "milk", "sugar", "love"]
+# If we select the -1 index, we get the final element, "love".
+print(pancake_recipe[-1])
+
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+last_element = shopping_list[-1]
+index5_element = shopping_list[5]
+print(last_element)
+print(index5_element)
+
+# To change a value in a list, reassign the value using the specific index.
+garden = ["Tomatoes", "Green Beans", "Cauliflower", "Grapes"]
+garden[2] = "Strawberries"
+print(garden)
+
+garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+garden_waitlist[1] = "Calla"
+garden_waitlist[-1] = "Alex"
+print(garden_waitlist)
+
+
+# We can remove elements in a list using the .remove() Python method.
+shopping_line = ["Cole", "Kip", "Chris", "Sylvana"]
+# We could remove "Chris" by using the .remove() method:
+
+shopping_line.remove("Chris")
+print(shopping_line)
+
+
+# 2d lists
